@@ -1,13 +1,13 @@
 {
-  "name": "web-extension-starter",
+  "name": "okdice",
   "version": "2.0.0",
-  "description": "Web extension starter using react and typescript",
+  "description": "kdice extension",
   "private": true,
-  "repository": "https://github.com/abhijithvijayan/web-extension-starter.git",
+  "repository": "https://github.com/muddylemon/okdice",
   "author": {
-    "name": "abhijithvijayan",
-    "email": "email@abhijithvijayan.in",
-    "url": "https://abhijithvijayan.in"
+    "name": "Lance Kidwell",
+    "email": "okdice@revyo.com",
+    "url": "https://lancekidwell.com"
   },
   "license": "MIT",
   "engines": {
