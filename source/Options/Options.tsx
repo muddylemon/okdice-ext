@@ -7,15 +7,13 @@ const Options: React.FC = () => {
     <div>
       <form>
         <p>
-          <label htmlFor="username">Your Name</label>
+          <label htmlFor="username">Text Buttons</label>
           <br />
           <input
             type="text"
-            id="username"
             name="username"
             spellCheck="false"
             autoComplete="off"
-            required
           />
         </p>
         <p>
