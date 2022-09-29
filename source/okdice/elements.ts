@@ -6,6 +6,8 @@ const chatOutput = document.querySelector(
   ".iogc-ChatPanel-messages"
 ) as HTMLDivElement;
 
+const chatSend = document.querySelector(".iogc-NewButton") as HTMLButtonElement;
+
 const sidebar = document.querySelector("#menu-out") as HTMLDivElement;
 
 const gameInfo = document.querySelector(
@@ -27,6 +29,7 @@ const leaveButton = document.querySelector(
 export default {
   chatInput,
   chatOutput,
+  chatSend,
   sidebar,
   gameInfo,
   tableName,

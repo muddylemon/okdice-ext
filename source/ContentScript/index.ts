@@ -1,5 +1,3 @@
-import { TextButtons, TableList } from "./components";
-
 type GameState = "waiting" | "playing" | "finished";
 type TurnState = "waiting" | "playing" | "finished";
 type Player = {

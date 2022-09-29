@@ -1,4 +1,5 @@
 import React from "react";
+import ReactDOM from "react-dom";
 
 export const TableList = () => {
   const [list, setList] = React.useState([]);
@@ -25,3 +26,7 @@ export const TableList = () => {
     </div>
   );
 };
+
+const mountPointID = "gamification-floating-ui-root";
+document.body.insertAdjacentHTML("afterend", `<div id="${mountPointID}" />`);
+ReactDOM.render(<TableList />, document.querySelector(`#${mountPointID}`));

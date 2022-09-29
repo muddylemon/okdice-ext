@@ -9,7 +9,7 @@ export const TextButtons = () => {
         value={text}
         onChange={(e) => setText(e.target.value)}
       />
-      <button onClick={() => setText2(text)}>Copy</button>
+      <button onClick={() => setText(text)}>Copy</button>
     </div>
   );
 };
